@@ -1,9 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP SW_DPDT_MSM
-D Switch, single pole double throw, center OFF position
-K switch spdt single-pole double-throw ON-OFF-ON
-F ~
+D Switch, double pole double throw, center OFF position
+K switch dpdt double-pole double-throw ON-OFF-ON
+F https://cdn-reichelt.de/documents/datenblatt/C200/SS-X2000.pdf
 $ENDCMP
 #
 #End Doc Library
