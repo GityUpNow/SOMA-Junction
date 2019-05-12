@@ -1,4 +1,4 @@
-15941982113410414
+15943539814023375
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -65687,6 +65687,13 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+Switch_THT
+SW_SLIDE_SSX22200C_DPDT
+
+
+0
+6
+6
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
