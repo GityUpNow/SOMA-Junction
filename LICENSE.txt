@@ -1,8 +1,3 @@
-Copyright (C) 2019 Simon "GityUpNow" Rätzer. Designed for the "Zenter für Kunst und Medien Karlsruhe" 
-All rights reserved. 
-
-=======================================================================
-
 Creative Commons Attribution-ShareAlike 4.0 International Public
 License
 
