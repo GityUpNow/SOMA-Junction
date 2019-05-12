@@ -28,53 +28,53 @@ $EndComp
 $Comp
 L Switch:SW_Rotary4x3 SW?
 U 1 1 5CD7A05B
-P 4450 1800
-F 0 "SW?" H 4500 2690 50  0000 C CNN
-F 1 "SW_Rotary4x3" H 4500 2599 50  0000 C CNN
-F 2 "" H 4350 2700 50  0001 C CNN
-F 3 "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf" H 4350 2700 50  0001 C CNN
-	1    4450 1800
+P 7050 1950
+F 0 "SW?" H 7100 2750 50  0000 C CNN
+F 1 "SW_Rotary4x3" H 7050 1150 50  0000 C CNN
+F 2 "" H 6950 2850 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf" H 6950 2850 50  0001 C CNN
+	1    7050 1950
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 4850 2000
-NoConn ~ 4850 2400
-NoConn ~ 3950 2500
-NoConn ~ 3950 2400
-NoConn ~ 3950 2300
-NoConn ~ 3950 2100
-NoConn ~ 3950 2000
-NoConn ~ 3950 1900
-Text Label 5300 1200 2    50   ~ 0
+NoConn ~ 7450 2150
+NoConn ~ 7450 2550
+NoConn ~ 6550 2650
+NoConn ~ 6550 2550
+NoConn ~ 6550 2450
+NoConn ~ 6550 2250
+NoConn ~ 6550 2150
+NoConn ~ 6550 2050
+Text Label 7900 1350 2    50   ~ 0
 DATA_STRAND
-Text Label 5300 1600 2    50   ~ 0
+Text Label 7900 1750 2    50   ~ 0
 CLK_STRAND
 Wire Wire Line
-	5300 1600 4850 1600
+	7900 1750 7450 1750
 Wire Wire Line
-	5300 1200 4850 1200
-Text Label 3450 1300 0    50   ~ 0
+	7900 1350 7450 1350
+Text Label 6050 1450 0    50   ~ 0
 DATA_OUTPUT
 Wire Wire Line
-	3450 1300 3950 1300
+	6050 1450 6550 1450
 Wire Wire Line
-	3950 1200 3450 1200
+	6550 1350 6050 1350
 Wire Wire Line
-	3950 1100 3450 1100
-Text Label 3450 1100 0    50   ~ 0
+	6550 1250 6050 1250
+Text Label 6050 1250 0    50   ~ 0
 DATA_INPUT0
-Text Label 3450 1200 0    50   ~ 0
+Text Label 6050 1350 0    50   ~ 0
 DATA_INPUT1
-Text Label 3450 1700 0    50   ~ 0
+Text Label 6050 1850 0    50   ~ 0
 CLK_OUTPUT
 Wire Wire Line
-	3450 1700 3950 1700
+	6050 1850 6550 1850
 Wire Wire Line
-	3950 1600 3450 1600
+	6550 1750 6050 1750
 Wire Wire Line
-	3950 1500 3450 1500
-Text Label 3450 1500 0    50   ~ 0
+	6550 1650 6050 1650
+Text Label 6050 1650 0    50   ~ 0
 CLK_INPUT0
-Text Label 3450 1600 0    50   ~ 0
+Text Label 6050 1750 0    50   ~ 0
 CLK_INPUT1
 $Comp
 L Connector:Screw_Terminal_01x04 J?
@@ -232,4 +232,57 @@ Text Label 2050 2950 2    50   ~ 0
 36V_STRAND
 Wire Wire Line
 	2050 2950 1000 2950
+Text Label 2650 2200 0    50   ~ 0
+36V_INPUT1
+Text Label 4800 2200 2    50   ~ 0
+36V_STRAND
+Text Label 4800 1900 2    50   ~ 0
+36V_OUTPUT
+Wire Wire Line
+	4800 2200 3500 2200
+$Comp
+L Switch_DPDT_MSM:SW_DPDT_MSM SW?
+U 1 1 5CDA5757
+P 3800 1800
+F 0 "SW?" H 3800 2350 50  0000 C CNN
+F 1 "SW_DPDT_MSM" H 3800 1600 50  0000 C CNN
+F 2 "" H 3800 1800 50  0001 C CNN
+F 3 "~" H 3800 1800 50  0001 C CNN
+	1    3800 1800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3600 1450
+NoConn ~ 4000 1550
+NoConn ~ 4000 1350
+Text Label 2650 1150 0    50   ~ 0
+36V_INPUT1
+Wire Wire Line
+	3600 1800 3500 1800
+Wire Wire Line
+	3500 1800 3500 2200
+Connection ~ 3500 2200
+Wire Wire Line
+	3500 2200 2650 2200
+Wire Wire Line
+	4800 1900 4000 1900
+Wire Wire Line
+	2650 1150 4100 1150
+Wire Wire Line
+	4100 1150 4100 1700
+Wire Wire Line
+	4100 1700 4000 1700
+$Comp
+L power:+36V #PWR?
+U 1 1 5CDDEE8F
+P 3500 1750
+F 0 "#PWR?" H 3500 1600 50  0001 C CNN
+F 1 "+36V" H 3515 1923 50  0000 C CNN
+F 2 "" H 3500 1750 50  0001 C CNN
+F 3 "" H 3500 1750 50  0001 C CNN
+	1    3500 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1750 3500 1800
+Connection ~ 3500 1800
 $EndSCHEMATC
