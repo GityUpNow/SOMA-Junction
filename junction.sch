@@ -31,7 +31,7 @@ U 1 1 5CD7A05B
 P 5400 1550
 F 0 "SW2" H 5450 2350 50  0000 C CNN
 F 1 "SW_Rotary4x3" H 5400 750 50  0000 C CNN
-F 2 "" H 5300 2450 50  0001 C CNN
+F 2 "Rotary_Switch_THT:RotaryEncoder_RND_210-Switch_Vertical_D26mm_H35mm" H 5300 2450 50  0001 C CNN
 F 3 "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf" H 5300 2450 50  0001 C CNN
 	1    5400 1550
 	-1   0    0    -1  
@@ -82,7 +82,7 @@ U 1 1 5CD8EF5F
 P 650 950
 F 0 "J1" H 600 1150 50  0000 L CNN
 F 1 "INPUT0" H 500 650 50  0000 L CNN
-F 2 "" H 650 950 50  0001 C CNN
+F 2 "TerminalBlock_MetzConnect_Custom:TerminalBlock_MetzConnect_AST045_1x04_P5.0mm_H21.5mm_W16.6mm_Horizontal_45Degree_Clamp" H 650 950 50  0001 C CNN
 F 3 "~" H 650 950 50  0001 C CNN
 	1    650  950 
 	-1   0    0    -1  
@@ -93,7 +93,7 @@ U 1 1 5CD8FFD8
 P 650 1600
 F 0 "J2" H 600 1800 50  0000 L CNN
 F 1 "INPUT1" H 500 1300 50  0000 L CNN
-F 2 "" H 650 1600 50  0001 C CNN
+F 2 "TerminalBlock_MetzConnect_Custom:TerminalBlock_MetzConnect_AST045_1x04_P5.0mm_H21.5mm_W16.6mm_Horizontal_45Degree_Clamp" H 650 1600 50  0001 C CNN
 F 3 "~" H 650 1600 50  0001 C CNN
 	1    650  1600
 	-1   0    0    -1  
@@ -104,7 +104,7 @@ U 1 1 5CD90C8B
 P 650 2250
 F 0 "J3" H 600 2450 50  0000 L CNN
 F 1 "OUTPUT" H 500 1950 50  0000 L CNN
-F 2 "" H 650 2250 50  0001 C CNN
+F 2 "TerminalBlock_MetzConnect_Custom:TerminalBlock_MetzConnect_AST045_1x04_P5.0mm_H21.5mm_W16.6mm_Horizontal_45Degree_Clamp" H 650 2250 50  0001 C CNN
 F 3 "~" H 650 2250 50  0001 C CNN
 	1    650  2250
 	-1   0    0    -1  
@@ -115,7 +115,7 @@ U 1 1 5CD9445E
 P 650 2900
 F 0 "J4" H 600 3100 50  0000 L CNN
 F 1 "STRAND" H 500 2600 50  0000 L CNN
-F 2 "" H 650 2900 50  0001 C CNN
+F 2 "TerminalBlock_MetzConnect_Custom:TerminalBlock_MetzConnect_AST045_1x04_P5.0mm_H21.5mm_W16.6mm_Horizontal_45Degree_Clamp" H 650 2900 50  0001 C CNN
 F 3 "~" H 650 2900 50  0001 C CNN
 	1    650  2900
 	-1   0    0    -1  
@@ -194,7 +194,7 @@ U 1 1 5CDC2054
 P 1200 850
 F 0 "R1" V 1100 850 50  0000 C CNN
 F 1 "100" V 1200 850 50  0000 C CNN
-F 2 "" V 1130 850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1130 850 50  0001 C CNN
 F 3 "~" H 1200 850 50  0001 C CNN
 	1    1200 850 
 	0    1    1    0   
@@ -205,7 +205,7 @@ U 1 1 5CDC51B3
 P 1200 950
 F 0 "R2" V 1100 950 50  0000 C CNN
 F 1 "100" V 1200 950 50  0000 C CNN
-F 2 "" V 1130 950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1130 950 50  0001 C CNN
 F 3 "~" H 1200 950 50  0001 C CNN
 	1    1200 950 
 	0    1    -1   0   
@@ -246,7 +246,7 @@ U 1 1 5CDA5757
 P 3200 1500
 F 0 "SW1" H 3200 1850 50  0000 C CNN
 F 1 "SW_DPDT_MSM" H 3200 1100 50  0000 C CNN
-F 2 "" H 3200 1500 50  0001 C CNN
+F 2 "Switch_THT:SW_SLIDE_SSX22200C_DPDT" H 3200 1500 50  0001 C CNN
 F 3 "~" H 3200 1500 50  0001 C CNN
 	1    3200 1500
 	1    0    0    -1  

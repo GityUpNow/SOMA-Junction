@@ -1,4 +1,4 @@
-15943539814375375
+15945097818306649
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -67703,6 +67703,13 @@ THT terminal block Metz Connect Type703_RT10N03HGLU pitch 9.52mm size 28.6x12.5m
 0
 3
 3
+TerminalBlock_MetzConnect_Custom
+TerminalBlock_MetzConnect_AST045_1x04_P5.0mm_H21.5mm_W16.6mm_Horizontal_45Degree_Clamp
+
+
+0
+8
+4
 TerminalBlock_Philmore
 TerminalBlock_Philmore_TB132_1x02_P5.00mm_Horizontal
 Terminal Block Philmore , 2 pins, pitch 5mm, size 10x10.2mm^2, drill diamater 1.2mm, pad diameter 2.4mm, see http://www.philmore-datak.com/mc/Page%20197.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Philmore
