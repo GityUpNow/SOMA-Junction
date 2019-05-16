@@ -134,7 +134,7 @@
     (descr "Mounting Hole 4.5mm, no annular")
     (tags "mounting hole 4.5mm no annular")
     (attr virtual)
-    (fp_text reference REF** (at 0 -5.5) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -5.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_4.5mm (at 0 5.5) (layer F.Fab)
