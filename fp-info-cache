@@ -1,4 +1,4 @@
-15945097818306649
+15946656465326649
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -65687,6 +65687,13 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+Switch_THT
+SW_CuK_JS203011CQN_DP3T_Angled
+
+
+0
+8
+8
 Switch_THT
 SW_SLIDE_SSX22200C_DPDT
 double pole, double throw, ON-OFF-OFF, https://cdn-reichelt.de/documents/datenblatt/C200/SS-X2000.pdf
