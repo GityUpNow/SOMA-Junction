@@ -206,7 +206,7 @@
   )
 
   (module TerminalBlock_MetzConnect_Custom:TerminalBlock_MetzConnect_AST045_1x04_P5.0mm_H21.5mm_W16.6mm_Horizontal_45Degree_Clamp (layer F.Cu) (tedit 5CDD45D5) (tstamp 5CDDCCE8)
-    (at -22.86 -13.97 180)
+    (at 20.32 29.21 180)
     (path /5CD8FFD8)
     (fp_text reference J2 (at 7.62 -15.24) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -305,7 +305,7 @@
   )
 
   (module TerminalBlock_MetzConnect_Custom:TerminalBlock_MetzConnect_AST045_1x04_P5.0mm_H21.5mm_W16.6mm_Horizontal_45Degree_Clamp (layer F.Cu) (tedit 5CDD45D5) (tstamp 5CDDCB53)
-    (at -24.13 41.91 270)
+    (at 29.21 5.08 270)
     (path /5CD8EF5F)
     (fp_text reference J1 (at 7.62 -15.24 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -403,8 +403,8 @@
       (net 11 /DATA_INPUT0))
   )
 
-  (module TerminalBlock_MetzConnect_Custom:TerminalBlock_MetzConnect_AST045_1x04_P5.0mm_H21.5mm_W16.6mm_Horizontal_45Degree_Clamp (layer F.Cu) (tedit 5CDD45D5) (tstamp 5D167638)
-    (at 22.86 -11.43 90)
+  (module TerminalBlock_MetzConnect_Custom:TerminalBlock_MetzConnect_AST045_1x04_P5.0mm_H21.5mm_W16.6mm_Horizontal_45Degree_Clamp (layer F.Cu) (tedit 5CDD45D5) (tstamp 5D16BDDB)
+    (at 40.64 64.77 90)
     (path /5CD90C8B)
     (fp_text reference J3 (at 7.62 -15.24 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -503,7 +503,7 @@
   )
 
   (module TerminalBlock_MetzConnect_Custom:TerminalBlock_MetzConnect_AST045_1x04_P5.0mm_H21.5mm_W16.6mm_Horizontal_45Degree_Clamp (layer F.Cu) (tedit 5CDD45D5) (tstamp 5CDDCF0A)
-    (at -31.75 87.63)
+    (at 49.53 40.64)
     (path /5CD9445E)
     (fp_text reference J4 (at 7.62 -15.24) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -673,8 +673,8 @@
     )
   )
 
-  (module Switch_THT:SW_SLIDE_SSX22200C_DPDT (layer F.Cu) (tedit 5CD89FD1) (tstamp 5CDDCFBC)
-    (at -48.26 41.91 270)
+  (module Switch_THT:SW_SLIDE_SSX22200C_DPDT (layer F.Cu) (tedit 5CD89FD1) (tstamp 5D16C5A6)
+    (at -35.56 48.26 270)
     (descr "double pole, double throw, ON-OFF-OFF, https://cdn-reichelt.de/documents/datenblatt/C200/SS-X2000.pdf")
     (tags "double-pole double-throw ON-OFF-ON")
     (path /5CDA5757)
