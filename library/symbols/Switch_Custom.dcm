@@ -6,10 +6,4 @@ K switch dp3t ON-ON-ON
 F ~
 $ENDCMP
 #
-$CMP SW_DPDT_MSM
-D Switch, double pole double throw, center OFF position
-K switch dpdt double-pole double-throw ON-OFF-ON
-F https://cdn-reichelt.de/documents/datenblatt/C200/SS-X2000.pdf
-$ENDCMP
-#
 #End Doc Library
