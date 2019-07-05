@@ -2,8 +2,6 @@
 A junction box to simlify the installation of the "Summer of Media Arts" lighting
 
 ## Sources
-* The SW_DPDT_MSM is a doubled version of the SW_SPDT_MSM from the official KiCAD-Libraries.<br>
-  [The KiCAD-Libraries are released under the CC-4.0-BY-SA](http://kicad-pcb.org/libraries/license/)
 * The SW_DP3T is a doubled version of the SW_SP3T from the official KiCAD-Libraries.<br>
   [The KiCAD-Libraries are released under the CC-4.0-BY-SA](http://kicad-pcb.org/libraries/license/)
 * The MountingHole_Custom:MountingHole_3.2mm_M3_Clearance1.6mm is a modifierd version of the MountingHole:MountingHole_3.2mm_M3 from the official KiCAD-Libraries.<br>
