@@ -138,7 +138,7 @@
   )
 
   (module Symbol:OSHW-Logo2_9.8x8mm_SilkScreen (layer F.Cu) (tedit 0) (tstamp 5D305289)
-    (at 15.24 5.08)
+    (at 5.842 17.018)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")
     (attr virtual)
@@ -1083,8 +1083,8 @@
       (net 12 /CLK_INPUT0))
   )
 
-  (gr_text "2019 (C)  Simon \"GityUpNow\" Rätzer/ZKM" (at 13.462 15.748) (layer F.SilkS)
-    (effects (font (size 0.7 0.7) (thickness 0.15)))
+  (gr_text "2019 (C)  Simon \"GityUpNow\" Rätzer/ZKM\nCC-BY-SA 4.0\ngithub.com/zkmkarlsruhe/SOMA-Junction" (at 1.27 23.114) (layer F.SilkS)
+    (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left))
   )
   (gr_line (start 23.622 32.004) (end 28.702 32.004) (layer F.SilkS) (width 0.12))
   (gr_line (start 23.622 40.64) (end 23.622 29.464) (layer F.SilkS) (width 0.12) (tstamp 5D1855F9))
